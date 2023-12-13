@@ -14,7 +14,7 @@ cd MuLA_GAN
 
 
 ### Training a Model
-The training dataset split used in the paper is provided in the folder named "Dataset/train".
+The training dataset split used in the paper is provided in the folder named "Dataset/train". [Download from here](https://drive.google.com/file/d/1moiW0Ptf5blF-hncV38mNtqXrg3vhSwr/view?usp=sharing).
 Start training by using the following command:
 
 ```  
