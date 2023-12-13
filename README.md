@@ -28,5 +28,5 @@ Testing can be done using the following command by usign your trained model or p
 ``` 
 python test.py --weights_path checkpoints/UIEB/generator_299.pth
 ```
-Or by running this script in python IDE
+Or by running this script in python IDE.
   
