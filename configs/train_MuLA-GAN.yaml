@@ -1,0 +1,17 @@
+
+# dataset info
+dataset_name: "UIEB" 
+dataset_path: "./Dataset/"
+
+# image info
+chans: 3
+im_width: 256
+im_height: 256
+
+# other params
+val_interval: 1000 # steps
+ckpt_interval: 20  # epochs
+
+
+
+ 
