@@ -37,7 +37,7 @@ The UIEB (Underwater Image Enhancement Benchmark) dataset is a diverse collectio
 ![Greenish Color Scene](Visual%20Comparison/Greenish.jpg)
 
 #### Bluish Color Scene
-![Bluish Color Scene](Visual%20Comparison/Bluish.jpg)
+![Bluish Color Scene](Visual%20Comparison/Blueish.jpg)
 
 #### Yellowish Color Scene
 ![Yellowish Color Scene](Visual%20Comparison/Yellowish.jpg)
