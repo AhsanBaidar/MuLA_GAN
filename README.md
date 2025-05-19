@@ -1,5 +1,5 @@
 # MuLA_GAN
-Multi-Level Attention based GAN for Underwater Image Enhancement [paper link will be added soon]
+Multi-Level Attention based GAN for Underwater Image Enhancement [paper](https://www.sciencedirect.com/science/article/pii/S1574954124001730)
 
 ## Before you start.
 
