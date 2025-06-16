@@ -56,3 +56,20 @@ The UIEB (Underwater Image Enhancement Benchmark) dataset is a diverse collectio
 
 #### High Backscattered Scene
 ![High Backscattered Scene](Visual%20Comparison/High%20Back_Scattered.jpg)
+
+---
+
+
+## 📚 Citation
+
+If you use **MULA-GAN** in your work, please cite:
+
+    @article{BAKHT2024102631,
+      author = {Ahsan B. Bakht and Zikai Jia and Muhayy Ud Din and Waseem Akram and Lyes Saad Saoud and Lakmal Seneviratne and Defu Lin and Shaoming He and Irfan Hussain},
+      title = {MuLA-GAN: Multi-Level Attention GAN for Enhanced Underwater Visibility},
+      year = {2024},
+      journal = {Ecological Informatics}
+    }
+
+---
+
