@@ -48,7 +48,6 @@ img_height = cfg["im_height"]
 val_interval = cfg["val_interval"]
 ckpt_interval = cfg["ckpt_interval"]
 
-# print("##############")
 # create dir for model and validation data
 samples_dir = os.path.join("samples/", dataset_name)
 checkpoint_dir = os.path.join("checkpoints/", dataset_name)
@@ -60,16 +59,12 @@ L1_G  = torch.nn.L1Loss()
 L_vgg = VGG19_PercepLoss() 
 lambda_1, lambda_con = 7, 3 
 patch = (1, img_height//16, img_width//16)
-# print("111@@@@@@@@@@@@@@")
 # Initialize generator and discriminator
 generator = MuLA_GAN_Generator()
 discriminator = Discriminator()
-# print("222@@@@@@@@@@@@@@")
 # see if cuda is available
 if torch.cuda.is_available():
-    # print("333@@@@@@@@@@@@@@")
     generator = generator.cuda()
-    # print("444@@@@@@@@@@@@@@")
     discriminator = discriminator.cuda()
     Adv_cGAN.cuda()
     L1_G = L1_G.cuda()
@@ -79,7 +74,6 @@ if torch.cuda.is_available():
 else:
     Tensor = torch.FloatTensor
 
-print("@@@@@@@@@@@@@@")
 
 # Optimizers
 optimizer_G = torch.optim.Adam(generator.parameters(), lr=lr_rate, betas=(lr_b1, lr_b2))
